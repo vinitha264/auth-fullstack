@@ -2,7 +2,7 @@
 
 export default function Home() {
     const handleLogin = () => {
-        window.location.href = "http://localhost:5000/api/auth/google";
+        window.location.href = "https://auth-backend-project.onrender.com/api/auth/google";
     };
 
     return (
