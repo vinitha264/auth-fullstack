@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 const Login = () => {
     const [user, setUser] = useState(null);
-    const BASE_URL = "http://localhost:5000";
+    const BASE_URL = "https://auth-backend-project.onrender.com";
 
     const handleLogin = () => {
         window.location.href = `${BASE_URL}/api/auth/google`;
