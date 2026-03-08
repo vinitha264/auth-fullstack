@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL: "http://localhost:5000",
+    baseURL: "https://auth-frontend-project-y98r.onrender.com",
     withCredentials: true,
 });
 
