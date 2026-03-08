@@ -11,7 +11,7 @@ export const AuthProvider = ({ children }) => {
         const fetchUser = async () => {
             try {
                 const res = await fetch(
-                    "https://auth-frontend-project-y98r.onrender.com/api/user/me",
+                    "https://auth-backend-project.onrender.com/api/user/me",
                     {
                         method: "GET",
                         credentials: "include",
@@ -37,7 +37,7 @@ export const AuthProvider = ({ children }) => {
 
     const logout = () => {
         setUser(null);
-        window.location.href = "https://auth-frontend-project-y98r.onrender.com/api/auth/logout";
+        window.location.href = "https://auth-backend-project.onrender.com/api/auth/logout";
     };
 
     return (
